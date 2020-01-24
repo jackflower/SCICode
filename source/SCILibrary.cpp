@@ -11,24 +11,23 @@
 std::string DecToBin(int decimal)
 {
 	//zmienne pomocnicze lokalne
-	int liczba = decimal;		//liczba, którą zamieniamy - inicjujemy ją parametrem
-	std::string binary = "";	//liczba binarna postaci ciągu zer i jedynek,
-								//którą ta funkcja wygenruje - inicjujemy pustym
-								//łańcuchem
+	int liczba = decimal; //liczba, którą zamieniamy - inicjujemy ją parametrem
+	std::string binary = ""; //liczba binarna postaci ciągu zer i jedynek,
+	//którą ta funkcja wygenruje - inicjujemy pustym łańcuchem
 
 	//kosmetyka...
 	if (liczba == 0)
-		return "0";				//bo inaczej nie wejdziemy do pętli while(...)
+		return "0"; //bo inaczej nie wejdziemy do pętli while(...)
 
 	//algorytm...
 
-	while (liczba)						//dopóki liczba jest różna od zera
+	while (liczba) //dopóki liczba jest różna od zera
 	{
-		if (liczba % 2 == 0)			//jeśli wyrażenie modulo zwraca 0
-			binary = "0" + binary;		//do łańcucha (tablica char) wstawiamy "0" - cyfrę zero
+		if (liczba % 2 == 0) //jeśli wyrażenie modulo zwraca 0
+			binary = "0" + binary; //do łańcucha (tablica char) wstawiamy "0" - cyfrę zero
 		else
-			binary = "1" + binary;		//w przeciwnym wypadku  wstawiamy "1" - cyfrę zero
-		liczba /= 2;					//dzielimy liczbę na dwa (system dwójkowy)
+			binary = "1" + binary; //w przeciwnym wypadku  wstawiamy "1" - cyfrę zero
+		liczba /= 2; //dzielimy liczbę na dwa (system dwójkowy)
 	}
 							
 	return binary;
@@ -38,20 +37,20 @@ std::string DecToBin(int decimal)
 int BinToDec(std::string & binary)
 {
 	//zmienne pomocnicze...
-	int x;							//odczytany element łańcucha zamieniony na zero lub jedenkę
-	int power = 1;					//wykładnik potęgowania
-	int dlugosc = binary.length();	//wyliczamy długość std::string binary
-	int system = 2;					//operujemy na systemie dwójkowym
-	int result = 0;					//wyliczona liczba dziesiętna, którą zwraca ta fukcja
+	int x; //odczytany element łańcucha zamieniony na zero lub jedenkę
+	int power = 1; //wykładnik potęgowania
+	int dlugosc = binary.length(); //wyliczamy długość std::string binary
+	int system = 2; //operujemy na systemie dwójkowym
+	int result = 0; //wyliczona liczba dziesiętna, którą zwraca ta fukcja
 
 	//zaczynamy od końca łańcucha (tablicy)...
 	for (int i = dlugosc - 1; i >= 0; i--)
 	{
 		if (binary[i] == '1') x = 1;
 		if (binary[i] == '0') x = 0;
-		result += x * power;		//do wyniku dodajemy otrzymaną wartość,
-									//którą mnożymy przez podstawę systemu do odpowiedniej potęgi
-		power *= system;			//ustawiamy power (wykładnik) na odpowiednią potegę systemu (2)
+		result += x * power; //do wyniku dodajemy otrzymaną wartość,
+        //którą mnożymy przez podstawę systemu do odpowiedniej potęgi
+		power *= system; //ustawiamy power (wykładnik) na odpowiednią potegę systemu (2)
 	}
 	return result;
 }
@@ -60,11 +59,11 @@ int BinToDec(std::string & binary)
 int OctalToDecimal(std::string & octal)
 {
 	//zmienne pomocnicze...
-	int x;							//odczytany element łańcucha zamieniony na liczby <0..7> - tyle ich jest w systemie ósemkowym
-	int power = 1;					//wykładnik potęgowania
-	int dlugosc = octal.length();	//wyliczamy długość std::string octal
-	int system = 8;					//operujemy na systemie ósemkowym
-	int result = 0;					//wyliczona liczba dziesiętna, którą zwraca ta fukcja
+	int x; //odczytany element łańcucha zamieniony na liczby <0..7> - tyle ich jest w systemie ósemkowym
+	int power = 1; //wykładnik potęgowania
+	int dlugosc = octal.length(); //wyliczamy długość std::string octal
+	int system = 8; //operujemy na systemie ósemkowym
+	int result = 0; //wyliczona liczba dziesiętna, którą zwraca ta fukcja
 
 	//zaczynamy od końca łańcucha (tablicy)...
 	for (int i = dlugosc - 1; i >= 0; i--)
@@ -77,10 +76,10 @@ int OctalToDecimal(std::string & octal)
 		if (octal[i] == '5') x = 5;
 		if (octal[i] == '6') x = 6;
 		if (octal[i] == '7') x = 7;
-		result += x * power;		//do wyniku dodajemy otrzymaną wartość,
-									//którą mnożymy przez podstawę systemu
-									//do odpowiedniej potęgi
-		power *= system;			//ustawiamy power (wykładnik) na odpowiednią potegę systemu (2)
+		result += x * power; //do wyniku dodajemy otrzymaną wartość,
+		//którą mnożymy przez podstawę systemu
+		//do odpowiedniej potęgi
+		power *= system; //ustawiamy power (wykładnik) na odpowiednią potegę systemu (2)
 	}
 	return result;
 }
@@ -89,9 +88,9 @@ int OctalToDecimal(std::string & octal)
 //Funkcja zamienia liczbę z dowolnego systemu na system dziesiętny
 int AnyToDec(std::string & number_in_any_system, int system)
 {
-	int x;							//odczytany element łańcucha
-	int wynik = 0;					//wartość, którą zwraca ta funkcja
-	int power = 1;					//potęga
+	int x; //odczytany element łańcucha
+	int wynik = 0; //wartość, którą zwraca ta funkcja
+	int power = 1; //potęga
 	int dlugosc = number_in_any_system.length();//wyliczamy długość std::string binary
 
 	//zaczynamy od końca tablicy...
@@ -119,11 +118,11 @@ bool BinarySearch(int tab[], int tab_size, int value_searched)
 {
 	//zakładamy, że przeszukujemy tablicę w pełnym zakresie
 	//czyli całą tablicę od indeksu 0 do ostatniego elementu
-	int l = 0;			//początek tablicy
-	int r = tab_size;	//koniec tablicy
-	int sr= (l + r)/2;	//indeks - wyliczany środek (miejsce) indeks
-	bool result = false;//flaga określa, czy w tablicy znajduje się szukana wartość
-						//na początku zakładamy, że nie...
+	int l = 0; //początek tablicy
+	int r = tab_size; //koniec tablicy
+	int sr= (l + r)/2; //indeks - wyliczany środek (miejsce) indeks
+	bool result = false; //flaga określa, czy w tablicy znajduje się szukana wartość
+	//na początku zakładamy, że nie...
 
 	std::cout << "Elementy tablicy:" << std::endl;
 
@@ -134,7 +133,6 @@ bool BinarySearch(int tab[], int tab_size, int value_searched)
 		std::cout << std::endl;
 
 		std::cout << "Szukamy w talicy wartosci: " << value_searched  << std::endl;
-
 
 	while (l <= r)
 	{
@@ -175,16 +173,16 @@ bool LineSearch(int tab[], int tab_size, int value_searched)
 //Funkcja losuje liczbę z przedziału obustronnie domkniętego
 int Rand(int min, int max)
 {
-	//P a m i ę t a j !!! - ziarno
-	//Zawsze ustawiaj tylko jeden raz
-	//np: w main() - zaraz na początku kodu
-	//poprawne wywołanie funkcji:
-	//	srand((unsigned)time(NULL));
+	// P a m i ę t a j !!! - ziarno
+	// Zawsze ustawiaj tylko jeden raz
+	// np: w main() - zaraz na początku kodu
+	// poprawne wywołanie funkcji:
+	// srand((unsigned)time(NULL));
 
 	int pseudolosowa = ((rand() % (max - min + 1))) + (min);
 	return pseudolosowa;//nasza cywilizacja potrafi za pomocą
-						//komputerów generować tylko liczby
-						//p s e u d o l o s o w e
+	//komputerów generować tylko liczby
+	//p s e u d o l o s o w e
 }
 
 //Funkcja zwraca flagę, czy rok jest przestępny
@@ -203,26 +201,26 @@ bool checkYear(int year)
 //Funkcja konwerstuje typ int na std::string
 std::string IntToString(int value)
 {
-	std::stringstream ssBufor;	//stringstream...bufor
-	std::string sWynik;			//zwykły string - to zwraca funkcja
-	ssBufor << value;			//wysyłamy liczbę int do bufora
-	ssBufor >> sWynik;			//przepisujemy z bufora do zwykłego stringa,
-								//z którym możemy już sobie "poradzić"...
+	std::stringstream ssBufor; //stringstream...bufor
+	std::string sWynik; //zwykły string - to zwraca funkcja
+	ssBufor << value; //wysyłamy liczbę int do bufora
+	ssBufor >> sWynik; //przepisujemy z bufora do zwykłego stringa,
+	//z którym możemy już sobie "poradzić"...
 	return sWynik;
 }
 
 //Funkcja zamienia wartości z a na b i b na a
 void Swap(int & a, int & b)
 {
-	int pom = a;//zapamiętano a
-	a = b;		//do a przekazuję b
-	b = pom;	//do b przekazuję zapamiętane a
+	int pom = a; //zapamiętano a
+	a = b; //do a przekazuję b
+	b = pom; //do b przekazuję zapamiętane a
 }
 
 //Funkcja zwraca ilość cyfr podanej liczby
 short CounterDigit(int liczba)
 {
-	short counter_digit = 0;//licznik cyfr
+	short counter_digit = 0;// licznik cyfr
 	if (liczba == 0) counter_digit = 1;
 	while (liczba != 0)
 	{
@@ -269,8 +267,8 @@ void InsertSortA(int tab[], int size)
 	for (int i = 1; i < size; i++)//zaczyna itrerację od drugiego elementu
 	{
 		//wstawienie elementu w odpowiednie miejsce
-		pom = tab[i];	//ten element będzie wstawiony w odpowiednie miejsce
-		j = i - 1;		//element następny względem i
+		pom = tab[i]; //ten element będzie wstawiony w odpowiednie miejsce
+		j = i - 1; //element następny względem i
 
 		//przesuwanie elementów większych od pom
 		while (j >= 0 && tab[j] > pom)
@@ -300,8 +298,8 @@ void InsertSortB(int tab[], int size)
 bool Palindrome(const std::string & word)
 {
 	unsigned length = word.length();
-	std::string napis_forward = word;	//słowo czytane od lewej do prawej
-	std::string napis_backwards;		//słowo czytane od prawej do lewej
+	std::string napis_forward = word; //słowo czytane od lewej do prawej
+	std::string napis_backwards; //słowo czytane od prawej do lewej
 	//skracamy ilość iteracji poprzez wykorzystnie zasady,
 	//że wystarczy sprawdzić połowę słowa...
 	int polowa = length / 2;
@@ -314,8 +312,8 @@ bool Palindrome(const std::string & word)
 //Funkcja zwraca flagę, czy łańcuch jest palindromem
 bool Palindrom(const std::string & napis)
 {
-	int napis_length = napis.length();	//długość napiasu
-										//ustawiam liczniki "i" i "j" na pierwszy i ostatni znak wyrazu tab
+	int napis_length = napis.length(); //długość napiasu
+	//ustawiam liczniki "i" i "j" na pierwszy i ostatni znak wyrazu tab
 
 	int i = 0;
 	int j = napis_length - 1; //pamiętajmy, że indeksujemy tablicę od 0
@@ -337,8 +335,8 @@ int SumDigit(int value)
 
 	while (value != 0)
 	{
-		suma_cyfr += value % 10;	//akumulujemy sumę cyfr
-		value /= 10;				//dzielimy liczbę przez 10 (system dziesiętny)
+		suma_cyfr += value % 10; //akumulujemy sumę cyfr
+		value /= 10; //dzielimy liczbę przez 10 (system dziesiętny)
 	}
 	return suma_cyfr;
 }
@@ -346,9 +344,9 @@ int SumDigit(int value)
 //Funkcja zwraca największy wspólny dzielnik dwóch liczb
 int NWD(int a, int b)
 {
-	//wybieramy większą z dwóch liczb
-	//i zamieniamy ją na różnicę większej i mniejszej,
-	//powtarzając tę czynność do momentu uzyskania dwóch takich samych wartości.
+	// wybieramy większą z dwóch liczb
+	// i zamieniamy ją na różnicę większej i mniejszej,
+	// powtarzając tę czynność do momentu uzyskania dwóch takich samych wartości.
 	while (a != b)//powtarzamy dopóki a jest różne od b
 	{
 		if (a > b)
@@ -397,7 +395,7 @@ bool PrimeNumber(int candidate)
 	for (int i = 2; i*i <= candidate; i++)
 		//dzielimy (modulo) liczbę (candidate) przez i...
 		if (candidate % i == 0)	//jeśli został wyliczony jakiś dzielnik
-			return false;		//to dana liczba nie jest pierwsza
+			return false; //to dana liczba nie jest pierwsza
 	return true;
 }
 
@@ -425,7 +423,7 @@ void sitoEratostenesa(bool tab[], unsigned int n)
 		//sprawdzamy czy liczba jest pierwsza (ma wartosc 0/false/) - dlatego negacja
 		if (!tab[i])
 			for (int j = i*i; j <= n; j += i) //to wykreślamy jej wielokrotnosci
-				tab[j] = true;      //ustawiając wartosć na 1
+				tab[j] = true; //ustawiając wartosć na 1
 	}
 
 	cout << "Kolejne liczby pierwsze z przedziału [2.." << n << "]: ";
@@ -461,27 +459,27 @@ EComparisons Compare(const std::string & a, const std::string & b)
 //Funckja zwraca pozycję, od której wzorzec znajduje się w tekście lub -1, gdy nie ma wzorca
 int bruteforce(const std::string & text, const std::string & pattern)
 {
-	int position = 0;				//indeks określający początek wzorca
-	int dl_t = text.length();		//długość tekstu
-	int dl_w = pattern.length();	//długość wzorca
-	bool ok = false;				//flaga określająca, czy znaleziono
-	int result = 0;					//wartość, którą zwraca funkcja
-									//-1 gdy nie ma wzorca,
-									//wartość reprezentująca początek wzorca w tekście
+	int position = 0; //indeks określający początek wzorca
+	int dl_t = text.length(); //długość tekstu
+	int dl_w = pattern.length(); //długość wzorca
+	bool ok = false; //flaga określająca, czy znaleziono
+	int result = 0; //wartość, którą zwraca funkcja
+	//-1 gdy nie ma wzorca,
+	//wartość reprezentująca początek wzorca w tekście
 
 	for (int i = 0; i <= dl_t - dl_w; i++)
 	{
 		//jeśli napotkamy pierwszą literę z wzorca w tekscie
 		if (text[i] == pattern[0])
 		{
-			ok = true;		//ustawiamy flagę na true
-			position = 1;	//zapamiętujemy pozycję
-							//szukamy, czy zgadzają się pozostałe znaki
+			ok = true; //ustawiamy flagę na true
+			position = 1; //zapamiętujemy pozycję
+			//szukamy, czy zgadzają się pozostałe znaki
 			for (int j = i + 1; j < dl_w; j++)
 				if (text[j] != pattern[++position]) //jeśli się nie zgadza
 				{
-					ok = false;		//ustawiamy flagę na fałsz...
-					break;			//przerywamy pętlę...
+					ok = false; //ustawiamy flagę na fałsz...
+					break; //przerywamy pętlę...
 				}
 			//jeśli wszystkie litery się zgadzają...
 			if (ok)
@@ -511,9 +509,9 @@ void odwrocIteration(int *tab, int left, int right)
 {
 	while (left < right)
 	{
-		swap(tab[left], tab[right]);//zamiana elementów skrajnych
-		left++;						//przesuwamy się do środka od lewej strony
-		right--;					//przesuwamy się do środka od prawej strony
+		swap(tab[left], tab[right]); //zamiana elementów skrajnych
+		left++; //przesuwamy się do środka od lewej strony
+		right--; //przesuwamy się do środka od prawej strony
 	}
 }
 
@@ -655,23 +653,23 @@ int Horner_Recursion(int wsp[], int st, int x)
 int dominant(int tab[], int size)
 {
 	//zmienne
-	int dominant;				//dominant - element najczęściej występujący w tablicy
-	int dominant_counter = 0;	//licznik jego wystąpień (wyzerowany)
+	int dominant; //dominant - element najczęściej występujący w tablicy
+	int dominant_counter = 0; //licznik jego wystąpień (wyzerowany)
 
 	//Wyszukujemy dominanta
 	for (int i = 0; i < size; i++)
 	{
-		int local_counter = 0;				//zerujemy lokalny licznik
-											//iterujemy po elementach tablicy od początku
+		int local_counter = 0; //zerujemy lokalny licznik
+		//iterujemy po elementach tablicy od początku
 		for (int j = 0; j < size; j++)
-			if (tab[j] == tab[i])			//jeśli został znaleziony element
-				local_counter++;			//zwiększamy licznik wystąpień
+			if (tab[j] == tab[i]) //jeśli został znaleziony element
+				local_counter++; //zwiększamy licznik wystąpień
 
 		//sprawdzamy, czy licznik lokalny jest większy od globalnego
 		if (local_counter > dominant_counter)
 		{
-			dominant_counter = local_counter;	//ten staje się globalnym
-			dominant = tab[i];					//wyznaczamy dominant
+			dominant_counter = local_counter; //ten staje się globalnym
+			dominant = tab[i]; //wyznaczamy dominant
 		}
 	}
 	return dominant;
@@ -681,28 +679,28 @@ int dominant(int tab[], int size)
 int *Dominant(int tab[], int size)
 {
 	//zmienne
-	int dominant;				//dominant - element najczęściej występujący w tablicy
-	int dominant_counter = 0;	//licznik jego wystąpień (wyzerowany)
-	int tabPom[2];				//tablica pomocnicza
-								//pod indeksem 0 - dominant
-								//pod indeksem 1 - licznik wystąpień dominanta
-	int *result;				//zwracany wskaźnik z opakowaniem informacji
+	int dominant; //dominant - element najczęściej występujący w tablicy
+	int dominant_counter = 0; //licznik jego wystąpień (wyzerowany)
+	int tabPom[2]; //tablica pomocnicza
+	//pod indeksem 0 - dominant
+	//pod indeksem 1 - licznik wystąpień dominanta
+	int *result; //zwracany wskaźnik z opakowaniem informacji
 
 	//Wyszukujemy dominanta
 	for (int i = 0; i < size; i++)
 	{
-		int local_counter = 0;				//zerujemy lokalny licznik
+		int local_counter = 0; //zerujemy lokalny licznik
 		
 		//iterujemy po elementach tablicy od początku
 		for (int j = 0; j < size; j++)
-			if (tab[j] == tab[i])			//jeśli został znaleziony element
-				local_counter++;			//zwiększamy licznik wystąpień
+			if (tab[j] == tab[i]) //jeśli został znaleziony element
+				local_counter++; //zwiększamy licznik wystąpień
 
 		//sprawdzamy, czy licznik lokalny jest większy od globalnego
 		if (local_counter > dominant_counter)
 		{
-			dominant_counter = local_counter;	//ten staje się globalnym
-			dominant = tab[i];					//wyznaczamy dominant
+			dominant_counter = local_counter; //ten staje się globalnym
+			dominant = tab[i]; //wyznaczamy dominant
 		}
 
 		//przepisujemy dane do tablicy pomocniczej
@@ -808,7 +806,7 @@ void Qsort(int *tab, int left, int right)
 		int m = left;
 		for (int i = left + 1; i <= right; i++)
 			if (tab[i]<tab[left])
-				Swap(tab[++m],tab[i]);  //zamiana miejscami 
+				Swap(tab[++m],tab[i]); //zamiana miejscami 
 		
 		Swap(tab[left], tab[m]);
 		Qsort(tab, left, m - 1);
@@ -873,7 +871,6 @@ std::string BigSum(std::string & number_1, std::string & number_2)
 {
 	//Przykład został omówiony na stronie: http://eduinf.waw.pl
 	
-	
 	//Rejestr pamieci, w której maszyna przechwuje zmienne, w naszym
 	//przypadku liczby, ma swoją pojemność. Na komputerze 32-bitowym
 	//mamy tylko tyle pamięci, aby przechować w nim liczbę w postaci
@@ -885,7 +882,7 @@ std::string BigSum(std::string & number_1, std::string & number_2)
 	//Rozwiązanie poniżej przedstawione jest najprostszym z możliwych
 	//rozwiązań, opierajace się na spodobie dodawania, któy poznaliśmy
 	//w szkole podstawowej.
-	//Jest to zresztą chyba jedyby sposób wykonywania operacji arytmetychnych
+	//Jest to zresztą chyba jedyby sposób wykonywania operacji arytmetycznych
 	//bez posługiwania się maszynami jakimi są kalkulatory, przez co rozumiemy
 	//wszystkie maszyny wymyślone przez człowieka ułatwiające zarzadzanie
 	//liczbami reprezentującycmi wielkości otaczającego nas świata.
@@ -927,15 +924,15 @@ std::string BigSum(std::string & number_1, std::string & number_2)
 	
 	//postępujemy według nastęujacego algorytmu:
 	
-	std::string s1;			//pierwszy składnik sumy
-	std::string s2;			//drugi składnik sumy
-	std::string suma;		//suma
+	std::string s1; //pierwszy składnik sumy
+	std::string s2; //drugi składnik sumy
+	std::string suma; //suma
 
-	int przeniesienie;		//przeniesienie
-	int w;					//zmienna przechowuje wynik dodawania w "słupku"
-	int length_number_1;	//długość łańcucha pierwszej liczby
-	int length_number_2;	//długość łańcucha drugiej liczby
-	int n;					//w tej zmiennej będzie przechowywany krótszy łańcuch
+	int przeniesienie; //przeniesienie
+	int w; //zmienna przechowuje wynik dodawania w "słupku"
+	int length_number_1; //długość łańcucha pierwszej liczby
+	int length_number_2; //długość łańcucha drugiej liczby
+	int n; //w tej zmiennej będzie przechowywany krótszy łańcuch
 
 	//odczytujemy liczby do dodawania z parametrów funkcji
 	s1 = number_1;
@@ -950,8 +947,8 @@ std::string BigSum(std::string & number_1, std::string & number_2)
 	if (length_number_2 < length_number_1)
 		n = length_number_2;
 
-	przeniesienie = 0;	//zerujemy przeniesienie
-	suma = "";			//zerujemy łańcuch wynikowy
+	przeniesienie = 0; //zerujemy przeniesienie
+	suma = ""; //zerujemy łańcuch wynikowy
 
 	//sumujemy kolejne od końca cyfry obu łańcuchów
 	for (int k = 1; k <= n; k++)
