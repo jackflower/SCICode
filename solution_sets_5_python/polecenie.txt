@@ -1,0 +1,28 @@
+Szczecinskie Collegium Informatyczne
+Technikum Informatyczne SCI
+
+Zestaw wygenerowany: Thu Feb  6 14:38:27 2020
+
+
+Zestaw 5
+
+W pliku "dane.txt" zapisano w osobnych liniach liczby.
+Liczby reprezentuja lata.
+Napisz program, ktory z pliku "dane.txt" 
+wczyta wszystkie dane w nim zawarte i zapisze do pliku
+"wynik.txt" tylko te lata, ktore są większe od roku 2000.
+
+
+Plik z poleceniem "polecenie.txt" zostal wygenerowany
+Plik z danymi "dane.txt" zostal wygenerowany
+
+Do oceny oddajesz:
+- kod zrodlowy: C/C++; Python; Java; JavaScript; C#; etc.
+- plik z poleceniem: "polecenie.txt"
+- plik z danymi: "dane.txt"
+- plik z zapisanym wynikiem pracy kodu: "wynik.txt"
+
+Wszystkie pliki, ktore oddajesz do oceny umiesc w folderze,
+ktoremu nadaj nazwe będącą połączeniem nazwy klasy
+oraz numeru w dzienniku.
+
