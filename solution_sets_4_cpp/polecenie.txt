@@ -11,7 +11,7 @@ Nazwy dni tygodnia zapisano w jezyku angielskim.
 Kazdy dzien tygodnia zaczyna sie z wielkiej litery.
 Napisz program, ktory z pliku "dane.txt" 
 wczyta wszystkie dane w nim zawarte i zapisze do pliku
-"wynik.txt" tylko te dni tygodnia, ktorych nazwa to: Wednesday.
+"wynik.txt" tylko te dni tygodnia, ktorych nazwa to: Tuesday.
 
 
 Plik z poleceniem "polecenie.txt" zostal wygenerowany
