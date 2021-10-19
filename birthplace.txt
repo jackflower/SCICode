@@ -1,0 +1,639 @@
+id_birthplace;birthplace
+1;Stargard Szczeciński
+2;Maszewo
+3;Gorzów Wielkopolski
+5;Warszawa
+6;Suchań
+7;Warnice
+8;Szczecin
+9;Goleniów
+11;Aleksandrów
+12;Gryfino
+14;Kielce
+15;Wałbrzych
+16;Choszczno
+17;Debrzno
+18;Aleksandrów Kujawski
+19;Międzyzdroje
+20;Pyrzyce
+21;Kamień Pomorski
+22;Gdańsk
+23;Trzebiatów
+24;Drawsko Pomorskie
+25;Słubice
+26;Dębno Lubuskie
+27;Nowogard
+28;Głogów
+29;Płock
+30;Lubczyna
+31;Płotno
+32;Stare Czarnowo
+33;Gardno
+34;Pogorzelica
+35;Płoty
+36;Police
+37;Nowe Czarnkowo
+38;Cedynia
+39;Rzepin
+40;Mosty
+42;Rewal
+43;Mieszkowice
+44;Odrzyca
+47;Myślibórz
+48;Węgorzyno
+49;Resko
+50;Mrągowo
+51;Górzyca
+52;Kołbacz
+53;Piłołówka
+54;Pasłęk
+55;Toruń
+56;Barlinek
+58;Kliniska
+59;Podjuchy
+60;Łobez
+61;Banie
+62;Zgierz
+64;Poznań
+65;Świdwin
+66;Pucice
+67;Kobylanka
+68;Lubiatowo
+69;Człuchów
+70;Stare Gronowo
+71;Koszęcin
+72;Maciejewo
+73;Śmierdnica
+74;Braniewo
+75;Bielsk Podlaski
+76;Knurów
+77;Dębina
+78;Zdunowo
+80;Jagów
+81;Wielgowo
+82;Brzesko
+83;Chojna
+84;Krosno Odrzańskie
+85;Bytom
+86;Żelewo
+87;Dołuje
+88;Skwierzyna
+89;Przecław
+90;Wąbrzeźno
+91;Łęczyna
+92;Golub-Dobrzyń
+93;Złotów
+94;Bogusławice
+95;Sławno
+96;Połczyn Zdrój
+97;Tetyń
+98;Sierpc
+99;Flensburg
+103;Schlieven
+104;Stegna
+105;Lisie Pole
+106;Mielenko Gryfińskie
+107;Michalinów
+108;Radzyń Podlaski
+109;Żabnica
+110;Lipno
+111;Golczewo
+112;Wrocław
+113;Głowno
+114;Pilchowo
+116;Darłowo
+117;Krzeszów
+118;Bolesławice
+120;Pustkowo
+122;Lipiany
+123;Nowy Dwór Wejherowski
+124;Wolin
+125;Rekowo
+126;Bierzwnik
+127;Międzyrzecz
+128;Pobierowo
+129;Hrubieszów
+130;Świnoujście
+131;Gryfice
+132;Świdnica
+133;Kutno
+134;Dąbek
+135;Krąnica
+136;Nowe Warpno
+137;Dąbrowa Górnicza
+138;Żabów
+139;Popielarnia
+140;Mostki
+141;Grójec
+142;Radziszewo
+143;Gdynia
+144;Brodnica
+145;Sadłowo
+146;Ostrów Mazowiecki
+147;Stołeczna
+148;Wschowa
+149;Puck
+150;Krynica Górska
+151;Siedlce
+152;Komorowo
+153;Kraków
+154;Dzienisy
+155;Wielkie Łużawy
+156;Bielawa
+157;Miejska Górka
+158;Budno
+159;Dobra Nowogardzka
+160;Osina
+161;Tarnoszyn
+162;Wągrowiec
+163;Oleśnica - Ostrówek
+164;Munchen
+165;Monachium
+166;Tarnów
+167;Janki
+168;Ińsko
+169;Kalisz Pomorski
+170;Zabrze
+171;Jawornik Ruski
+172;Zdziechowa
+173;Radom
+174;Orneta
+175;Wałcz
+176;Szczebrzeszyn
+177;Wyrzysk
+178;Blachownia
+179;Ośno Lubuskie
+181;Inowrocław
+182;Więcbork
+183;Sulęcin
+184;Biełaja Cerkow
+185;Środa Wielkopolska
+186;Głuchołazy
+187;Żelechowo
+188;Jelenia Góra
+189;Żary
+191;Kołobrzeg
+192;Sowno
+193;Gajęcki Ług
+194;Redło
+195;Lubniewice
+196;Słupsk
+197;Binowo
+198;Recz
+199;Zeliszewo
+200;Złocieniec
+201;Kłodzko
+202;Lębork
+203;Kliniska Wielkie
+204;Tomaszów Lubelski
+205;Mikołów
+206;Grudziądz
+207;Łódź
+208;Lubicz
+209;Widuchowa
+210;Kożuchów
+211;Łuków
+212;Lublin
+213;Przybiernów
+214;Jabłonka
+215;Miastko
+216;Lwówek Śląski
+217;Rudziszki
+218;Wysokie Mazowieckie
+219;Kartuzy
+220;Szprotawa
+221;Ruja
+222;Cychry
+223;Kętrzyn
+224;Rzecko
+225;Krotoszyn
+226;Korytowo
+227;Trzebież
+228;Sromowce Wyżne - Kąty
+229;Nidzica
+231;Dobra
+232;Gniezno
+233;Runowo Pomorskie
+234;Szczecin Dąbie
+235;Nowy Targ
+236;Dębostrów
+238;Opole
+239;Dolice
+240;Tarnowskie Góry
+241;Czarne k Szczecinka
+242;Bolesławiec Śląski
+243;Bydgoszcz
+244;Czelin gmina Mieszkowice
+245;Szubin
+246;Sulechów
+247;Szamotuły
+248;Nojewo
+249;Wieluń
+251;Orzechów
+252;Dziwnów
+253;Pargowo
+254;Koszalin
+255;Mołodecznie
+256;Biała Podlaska
+257;Łomazy
+258;Mierzyn
+259;Wojcieszyce k Jeleniej Góry
+260;Suwałki
+261;Kąkolewice
+262;Drawno
+263;Gubin
+264;Brody Żarskie
+265;Strumienno
+266;Trzcianka
+267;Krzyż Wielkopolski
+268;Pleszew
+269;Dobrzyca
+270;Erewań
+271;Wola k Pszczyny
+272;Tychowo k Białogardu
+273;Szczecinek
+274;Kalisz Wielkopolski
+275;Iława
+276;Dobropole
+277;Nowe Worowo
+278;Mielęcin k Wałcza
+279;Krzęcin
+280;Pełczyce
+281;Gójsk
+282;Świdnik
+283;Stare Juchy
+285;Ognica
+286;Mysłowice
+287;Krzywin Gryfiński
+288;Rajgród
+289;Morąg
+290;Kostrzyn Odrzański
+291;Głębokie
+292;Skierniewice
+293;Działdowo
+294;Nowa Sól
+295;Elbląg
+296;Przedecz
+297;Gliwice
+298;Łęczyca
+299;Białystok
+300;Burbiszki
+301;Oborniki Wielkopolskie
+302;Nowe Czarnowo
+304;Zielona Góra
+305;Świebodzin
+306;Sopot
+307;Katowice
+308;Ziębice
+309;Chociwel
+310;Borowo
+311;Tuchola
+312;Wielka Klonia
+313;Zduńska Wola
+314;Olsztyn
+315;Morzyczyn
+316;Nawodna
+317;Legnica
+318;Chojnów
+319;Sosnowiec
+320;Kretlewo
+321;Ostrowiec Świętokrzyski
+322;Moryń
+323;Kołki
+324;Sokółka
+325;Wawrzyn
+326;Kolno
+327;Józefów
+328;Tomaszów Mazowiecki
+329;Lubsko
+330;Symferopol
+331;Śrem
+332;Borek Wielkopolski
+333;Skarżysko Kamienna
+334;Czaplinek
+335;Łubowo
+336;Ostrzeszów
+337;Białogard
+338;Piła
+339;Włocławek
+340;Biłgoraj
+341;Błaszki
+342;Kalisz
+343;Złotoryja
+344;Kwidzyn
+345;Wolanów
+346;Dołhobyczów
+347;Prudnik
+349;Mostkowo
+350;Pniewy
+351;Rzepino
+352;Kazimierz
+353;Oleśnica
+354;Osów
+355;Krapkowice
+356;Berlin
+357;Orzysz
+358;Pęzino
+359;Poniatowa
+360;Kołbaskowo
+361;Grzędzice
+362;Ługowina
+363;Krzeszyce
+364;Włodawa
+365;Urszulin
+366;Czarnogłowy
+367;Przemyśl
+368;Ostrów Wielkopolski
+369;Nowielin
+370;Brodniki
+371;Tanowo
+372;Barnisław
+373;Łapy
+374;Stara Dąbrowa
+375;Stepnica
+376;Wierzchowo
+377;Chełm
+378;Kędzierzyn Koźle
+379;Włodkowice
+380;Zakopane
+381;Brzeg
+382;Sieraków
+383;Ławy
+384;Nadziejewo
+385;Rów
+386;Dobiegniew
+387;Bełczyna
+388;Chełmno
+389;Warzyńce
+390;Kiewłaki
+391;Janów Lubelski
+392;Słońsk
+393;Czartoryja
+395;Świebodzice
+396;Myśliborki
+397;Mińsk Mazowiecki
+398;Szklarska Poręba
+399;Drezdenko
+401;Chojnice
+402;Międzyrzecze
+403;Dobra Szczecińska
+404;Radawuczi Woluńskie
+405;Daleszewo
+406;Karnice
+407;Stalowa Wola
+408;Lida - Białoruś
+409;Wołczkowo
+410;Szczecin - Dąbie
+411;Kretki - Małe
+412;Grodno
+413;Kościan
+414;Łaszczów
+415;Tuczno
+416;Bezrzecze
+417;Pieszyce
+418;Bielice
+419;Sompolno
+420;Lubin
+422;Szerzyny
+423;Polkowice
+424;Garbatka
+425;Brzeg Dolny
+426;Czyste
+427;Małaszewicze
+428;Świecie
+429;Zamość
+430;Szczecin-Wielgowo
+431;Otwock
+432;Tarnobrzeg
+433;Izabelów
+434;Starachowice
+436;Gostynin
+437;Żagań
+438;Łomianki
+439;Pietlikowice Stare ZSRR
+440;Luboń
+441;Płońsk
+442;Jastrzębie Zdrój
+443;Karczew
+444;Lipie Góry
+445;Ukraina
+446;Iwano-Frankowsk
+447;Wejherowo
+450;Dźwirzyno
+451;Rogowo
+452;Chotków
+453;Czarna Łąka
+454;Szamocin
+455;Reptowo
+456;Chwarstnica
+458;Radomsko
+459;Dębno
+460;Dargobądz
+461;Margowo
+462;Świerzno
+463;Mława
+465;Skrwilno
+466;Malbork
+467;Węgorzyce
+468;Warzymice
+469;Kępno
+470;Rymań
+471;Nowa Ruda
+472;Wadowice
+473;Sieradz
+474;Sicko
+475;Dobrzany
+476;Wysoka Gryfińska
+477;Lubawa
+478;Barnim
+479;Trzcińsko-Zdrój
+480;Widawa
+481;Koło
+482;Grzepnica
+483;Brojce
+484;Wardyń
+485;Drzycimin
+486;Giżyno
+487;Pauliny
+488;Lotyń
+489;Piekuty Nowe
+490;Grabowo
+491;Ryczywół
+492;Soczewka
+493;Krzywiec
+494;Obrzycko
+495;Ostrów Lubelski
+496;Zamostne
+497;Ligota Piękna
+498;Zwierzyniec
+499;Stare Warpno
+500;Stare Worowo
+502;Rosja
+503;Będargowo
+504;Piotrków Trybunalski
+505;Sitno
+506;Kuniska Wielkie
+507;Turek
+508;Janikowo
+509;Grzymiąca
+510;Czarnków
+511;Goszków
+512;Wrząca
+513;Tarnogród
+514;Rosiny
+515;Kościerzyna
+516;Rawicz
+517;Dębica
+519;Nagoszyn
+520;Częstochowa
+521;Witnica
+522;Przęsocin
+523;Terespol
+524;Lutocin
+525;Świerczyna
+526;Korzybie
+527;Poczdam
+528;Marianowo
+529;Kozielice
+530;Siemianowice Śląskie
+531;Zieleniewo
+532;Rzęsin
+533;Niekłończyca
+534;Jawor
+535;Przelewice
+536;Zgorzelec
+537;Piaseczno
+538;Modnówek
+539;Izbica Kujawska
+540;Tałdy-Kurhan
+541;Oświęcim
+542;Gronisko
+543;Wołkowo
+544;Mielec
+545;Sulikowo
+546;Ostróżki
+547;Puławy
+548;Dąbrowa Białostocka
+549;Lidzbark Warmiński
+550;Środa Śląska
+551;Olesno
+552;Danowo
+553;Zakrzewo
+554;Wronki
+555;Trzeszczyn
+556;Niepołcko
+557;Olszyna
+558;Maków Mazowiecki
+559;Arbuzinka
+561;Borne Sulinowo
+563;Dziwnówek
+564;Gevas
+565;Izmir
+566;Zwierzyn
+567;Dynów
+568;Rymanów
+569;Kruszewnia
+570;Czechowice Dziedzice
+571;Czepino
+572;Jasło
+573;Szczytniki
+574;Nowa Wieś Wielka
+576;Żuromin
+577;Chamsk
+578;Żurawica
+579;Kościno
+580;Łomża
+581;Bielsko-Biała
+582;Karsin
+583;Rzeszów
+584;Strzałki
+585;Jarocin
+586;Cumra
+588;Starogard
+589;Konin
+590;Wolibórz
+591;Obryta
+592;Bytów
+593;Jesionka
+594;Tarnowo Podgórne
+595;Kłodawa
+596;Nowy Sącz
+597;Sucha Beskidzka
+598;Kolbuszowa
+599;Stare Miasto
+600;Chorzów
+601;Prusice
+602;Mirosławiec
+603;Mościsko
+604;Reszel
+605;Leszno
+606;Boguszów-Gorce
+607;Nysa
+608;Aleksandrów Łódzki
+609;Krościenko
+610;Marki
+611;Kobyla Góra
+612;Konstantów Łódzki
+613;Dębogóra
+614;Cyców
+615;Niechorze
+616;Złotniki, Suchy Las
+617;Ryki
+618;Raszyn-Rybie
+619;Bielsko Biała
+620;Dłużyna
+621;Dawidy
+622;Strzałkowo
+623;Oborniki Śląskie
+624;Cieszyn
+625;Woźniki
+626;Jabłonowo Pomorskie
+627;Stary Sącz
+628;Bieruń
+629;Bralin
+630;Ełk
+631;Niedźwiedź
+632;Stargard
+633;Lubartów
+634;Iwierzyce
+635;Stara Studnica
+636;Dublin
+637;Przesącin
+638;Wieprz
+639;Słodkowo
+640;Krasnystaw
+641;Gietrzwałd
+642;Myślenice
+643;Żyrardów
+644;Chybie
+645;Ożarów Mazowiecki
+646;Dołgie
+647;Łukowice
+648;Bolesławiec
+649;Rogoźno
+650;Tarnawatka
+651;Nakło Nad Notecią
+652;Jaworzyna Śląska
+653;Poniec
+654;Żórawie
+655;Wilczyce
+656;Rumia
+658;Białuń
+659;Niwka
+660;Lesięcin
+661;Wełtyń
+662;Krzypnica
+663;Stare Babice
+664;Wisławie
+665;Smolęcin
+666;Imielno
+667;Kostrzyn nad Odrą
+668;Ostromice
+669;Ryszewko
+670;Stare Chrapowo
+671;Skarbimierzyce
+672;Wysiedle
+673;Rurzyca
+674;Niebylec
+675;Wierzchlas
+676;Niedary
