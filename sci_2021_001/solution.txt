@@ -1,0 +1,21 @@
+select 
+	`xanadu`.`person`.`person_name` AS `person_name`, 
+	`xanadu`.`birthplace`.`birthplace` AS `birthplace` 
+from 
+	(
+		`xanadu`.`person` 
+		left join `xanadu`.`birthplace` on(
+			(
+				`xanadu`.`birthplace`.`id_birthplace` = `xanadu`.`person`.`id_birthplace`
+			)
+		)
+	) 
+where 
+	(
+		(
+			`xanadu`.`person`.`person_name` = 'Anna'
+		) 
+		and isnull(
+			`xanadu`.`birthplace`.`birthplace`
+		)
+	)
