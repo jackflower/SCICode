@@ -1,4 +1,3 @@
-id_birthplace;birthplace
 1;Stargard Szczeciński
 2;Maszewo
 3;Gorzów Wielkopolski

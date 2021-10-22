@@ -1,4 +1,3 @@
-id_person;person_name;id_birthplace
 6;Elżbieta;14
 12;Waldemar;96
 13;Karol;5
