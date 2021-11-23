@@ -1,4 +1,4 @@
-#### ![sci_logo](C:\Users\Jacek\Documents\GitHub\SCICode\graphics\sci_logo.png) Technikum Informatyczne SCI - zestaw testowy
+#### ![sci_logo](https://github.com/jackflower/SCICode/blob/master/graphics/sci_logo.png) Technikum Informatyczne SCI - zestaw testowy
 
 
 
