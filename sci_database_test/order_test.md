@@ -31,7 +31,7 @@ W bazie utwórz tabelę o nazwie _**person**_, której struktura została przeds
 
 
 
-Zaimportuj do tej tabeli dane znajdujące się w pliku _**person.txt**_. Prawidłowy import danych powinien dodać do tabeli _**3121**_ rekordów. 
+Zaimportuj do tej tabeli dane znajdujące się w pliku _**person_test.txt**_. Prawidłowy import danych powinien dodać do tabeli _**3121**_ rekordów. 
 
 
 
