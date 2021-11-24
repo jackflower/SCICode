@@ -2,7 +2,7 @@
 
 
 
-### Celem tego sprawdzianu jest ocena umiejętności posługiwania się narzędziem XAMP, a w szczególności:
+### Celem tego sprawdzianu jest ocena umiejętności posługiwania się narzędziem XAMPP, a w szczególności:
 
 1. Administrowanie systemem **phpMyAdmin**
 2. Zarządzanie systemem bazy danych _**mySQL**_
@@ -16,7 +16,7 @@
 
 ### Przygotowanie środowiska i jego konfiguracja
 
-Posługując się narzędziem XAMP utwórz na koncie _**localhost**_ bazę danych i nadaj jej nazwę według poniższej specyfikacji:
+Posługując się narzędziem XAMPP utwórz na koncie _**localhost**_ bazę danych i nadaj jej nazwę według poniższej specyfikacji:
 
 Nazwa bazy danych to konkatenacja: **sci_test_numer_w_dzienniku**, gdzie numer w dzienniku to Twój numer w dzienniku Przykładowa, poprawna nazwa dla bazy danych to **sci_test_04** (dla osoby z numerem w dzienniku 4). Pamiętaj, aby dla bazy danych poprawnie określić kodowanie na (_**utf8_polish_ci**_).
 
