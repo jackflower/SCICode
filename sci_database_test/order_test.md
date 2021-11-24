@@ -18,7 +18,7 @@
 
 Posługując się narzędziem XAMP utwórz na koncie _**localhost**_ bazę danych i nadaj jej nazwę według poniższej specyfikacji:
 
-Nazwa bazy danych to konkatenacja: **sci_basic_numer_w_dzienniku**, gdzie numer w dzienniku to Twój numer w dzienniku Przykładowa, poprawna nazwa dla bazy danych to **sci_basic_04** (dla osoby z numerem w dzienniku 4). Pamiętaj, aby dla bazy danych poprawnie określić kodowanie na (_**utf8_polish_ci**_).
+Nazwa bazy danych to konkatenacja: **sci_test_numer_w_dzienniku**, gdzie numer w dzienniku to Twój numer w dzienniku Przykładowa, poprawna nazwa dla bazy danych to **sci_test_04** (dla osoby z numerem w dzienniku 4). Pamiętaj, aby dla bazy danych poprawnie określić kodowanie na (_**utf8_polish_ci**_).
 
 ### Przygotowanie obiektów bazy danych (tabela)
 
